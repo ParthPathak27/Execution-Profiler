@@ -11,6 +11,7 @@ This Execution Profiler provides the following profiling information:
 * Detecting Memory Leaks
 * Total Freed & Unfreed memory
 * Execution Time 
+* CPU Utilization
 
 
 ### Output
