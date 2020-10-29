@@ -7,10 +7,11 @@ Profiling is achieved by instrumenting either the program source code or its bin
 
 This Execution Profiler provides the following profiling information:
 
-* The memeory allocated to the function
+* Memory allocated (in Bytes) to the function
 * Detecting Memory Leaks
-* Execution time 
-* Total freed & unfreed memory
+* Total Freed & Unfreed memory
+* Execution Time 
+
 
 ### Output
 ![screenshot](output.png)
