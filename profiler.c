@@ -35,7 +35,7 @@ void fun2(void)
   int j = 100, l;
   void * p = malloc(j);
   
-  //free(p);
+  //free(p); /* << memory leak added here*/
   //p = NULL;
   for(l = 0; l < 3000000; l++){
   }
@@ -77,7 +77,7 @@ void fun4(void)
   int l = 20, m;
   void * p = malloc(l);
   int i;
-  free(p); /* << memory leak added here*/
+  free(p);
   p = NULL;
   for(m = 0; m < 1000000; m++){
   }
