@@ -94,7 +94,6 @@ void show_mem_stat(void)
 }
 
 double time_taken(clock_t begin){
-  //double time_spent = 
   return ((double)begin) / CLOCKS_PER_SEC;
 }
 
