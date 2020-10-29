@@ -6,5 +6,5 @@ In software engineering, profiling ("program profiling", "software profiling") i
 Profiling is achieved by instrumenting either the program source code or its binary executable form using a tool called a profiler (or code profiler). Profilers may use a number of different techniques, such as event-based, statistical, instrumented, and simulation methods.
 
 ### Output
-![screenshot](https://github.com/ParthPathak27/Execution-Profiler/blob/master/output.png)
+![screenshot](output.png)
 
